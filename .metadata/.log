@@ -16,3 +16,9 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY org.eclipse.cdt.core 1 0 2024-06-22 10:35:03.661
 !MESSAGE Indexed 'Ejemplo01_Inicio_Blinking' (25 sources, 85 headers) in 3.99 sec: 5,810 declarations; 32,395 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0052%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-06-22 16:31:44.499
+!MESSAGE Indexed 'Ejemplo01_Push_Button' (25 sources, 122 headers) in 1.69 sec: 12,766 declarations; 54,281 references; 1 unresolved inclusions; 92 syntax errors; 240 unresolved names (0.36%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-06-22 16:32:06.266
+!MESSAGE Indexed 'Ejemplo02_Push_Button' (25 sources, 122 headers) in 1.43 sec: 12,766 declarations; 54,281 references; 1 unresolved inclusions; 92 syntax errors; 240 unresolved names (0.36%)
