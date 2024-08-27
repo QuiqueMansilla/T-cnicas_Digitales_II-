@@ -60,8 +60,8 @@ all: main-build
 main-build: Ejemplo02_Push_Button.elf secondary-outputs
 
 # Tool invocations
-Ejemplo02_Push_Button.elf Ejemplo02_Push_Button.map: $(OBJS) $(USER_OBJS) C:\Users\Lenovo\Dropbox\Tecnicas_Digitales_II\Ejemplo02_Push_Button\STM32F413ZHTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "Ejemplo02_Push_Button.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\Lenovo\Dropbox\Tecnicas_Digitales_II\Ejemplo02_Push_Button\STM32F413ZHTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ejemplo02_Push_Button.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Ejemplo02_Push_Button.elf Ejemplo02_Push_Button.map: $(OBJS) $(USER_OBJS) C:\Users\USUARIO\Dropbox\Tecnicas_Digitales_II\Ejemplo02_Push_Button\STM32F413ZHTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "Ejemplo02_Push_Button.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\USUARIO\Dropbox\Tecnicas_Digitales_II\Ejemplo02_Push_Button\STM32F413ZHTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ejemplo02_Push_Button.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
