@@ -2,3 +2,5 @@
 1724683631097	Delete resource 'Ejemplo04_Driver_GPIO/Drivers/API/Inc/API_GPIO'
 1724683831006	Delete resource 'Ejemplo04_Driver_GPIO/API_GPIO'
 1724683991216	Delete resource 'Ejemplo04_Driver_GPIO/Drivers/API/Src/API_GPIO'
+1724870633097	Delete resource 'Ejemplo04_Driver_GPIO/Debug/Ejemplo02_Push_Button.elf'
+1724870691496	Delete resource 'Ejemplo03_Push_Button3/Debug/Ejemplo02_Push_Button.elf'
